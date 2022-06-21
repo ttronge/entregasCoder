@@ -6,20 +6,19 @@ class Conteneor {
   };
 
   static id = 1;
-  //funcion que vea si existe el id dentro del archivo o guardar los id en un array. si existe entonces hacer un append si no un write
 
-  async save(obj) {
+   save(obj) {
     obj.id = Conteneor.id;
     try {
       if (obj.id === 1) fs.writeFileSync(this.file, JSON.stringify([obj], null, 2))
       else {
         const file = JSON.parse(fs.readFileSync(this.file));
-        file.push(obj)
+        file.push(obj);
         fs.writeFileSync(this.file, JSON.stringify(file, null, 2));
-
       };
-      Conteneor.id++
 
+      Conteneor.id++
+      
     }
     catch (err) {
       console.log(err);
