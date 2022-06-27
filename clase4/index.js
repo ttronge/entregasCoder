@@ -16,7 +16,6 @@ app.get('/productos', (req, res) => {
 
 app.get('/producto-random', (req, res) => {
     const resultado = ()=> productos.find(r=>r.id === random())
-    console.log(resultado());
     res.send(resultado())
    
 });
