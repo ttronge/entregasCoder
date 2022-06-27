@@ -43,6 +43,7 @@ class Conteneor {
   
   deleteAllProducts (){
     fs.writeFileSync(this.file, JSON.stringify([], null, 2));
+    
   };
 
 };
@@ -57,5 +58,5 @@ test2.save({ title: 'test2', price: 5, thumbnail: 'https://los40es00.epimg.net/l
 test3.save({ title: 'test3', price: 5, thumbnail: 'https://los40es00.epimg.net/los40/imagenes/2018/05/05/cinetv/1525519567_029601_1525519650_noticia_normal.jpg' })
 test1.getById(32)
 test1.getAll()
-test1.deleteById(3)
-test1.deleteAllProducts()
+//test1.deleteById(3)
+//test1.deleteAllProducts()
