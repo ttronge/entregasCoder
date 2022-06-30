@@ -1,0 +1,26 @@
+[
+      {
+    "title": "producto1",
+    "price": 5,
+    "thumbnail": "https://media.todojujuy.com/p/2eb76b994fbe3f471c06b21c836280e1/adjuntos/227/imagenes/000/352/0000352898/1200x1200/smart/el-sapo-pepe.jpg",
+    "id": 0
+  },
+  {
+    "title": "producto1",
+    "price": 5,
+    "thumbnail": "https://media.todojujuy.com/p/2eb76b994fbe3f471c06b21c836280e1/adjuntos/227/imagenes/000/352/0000352898/1200x1200/smart/el-sapo-pepe.jpg",
+    "id": 1
+  },
+  {
+    "title": "test2",
+    "price": 5,
+    "thumbnail": "https://los40es00.epimg.net/los40/imagenes/2020/02/04/cinetv/1580834241_572538_1580834379_noticia_normal.jpg",
+    "id": 2
+  },
+  {
+    "title": "test3",
+    "price": 5,
+    "thumbnail": "https://los40es00.epimg.net/los40/imagenes/2018/05/05/cinetv/1525519567_029601_1525519650_noticia_normal.jpg",
+    "id": 3
+  }
+]
