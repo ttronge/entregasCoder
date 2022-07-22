@@ -3,7 +3,7 @@ const path = require('path');
 const { Router } = express;
 const routerProducts = Router();
 
-let productos = []; // se cargan los productos con el post :D
+let productos = [];
 let numberId = 1;
 
 routerProducts.get('/seeForm', (req, res) => {

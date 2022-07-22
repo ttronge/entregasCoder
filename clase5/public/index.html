@@ -9,10 +9,9 @@
 </head>
 
 <body>
-    <form action="/uploadfile" enctype="multipart/form-data" method="post">
-        <input type="text", name="myFile" placeholder="Ingresa un producto">
-        <input type="text", name="myFile" placeholder="Ingresa un precio">
-        <input type="text", name="myFile" placeholder="Ingresa una url con la imagen">
+    <form action="/api/productos" enctype="multipart/form-data" method="post">
+        <input type="text", name="title" placeholder="Ingresa un producto">
+        <input type="text", name="thumbnail" placeholder="Ingresa una url con la imagen">
         <input type="submit", name="Upload a file">
     </form>
 </body>

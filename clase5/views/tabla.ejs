@@ -1,0 +1,28 @@
+<div class="table-responsive" style="margin-left:20px; text-align:center">
+    <table class="table table-dark">
+        <tr style="color: blue;">
+            <th></th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Imagen
+        </tr>
+        <%data.forEach(function(element) {%>
+            <tr>
+
+                <td>
+                    <a class="col border d-flex  justify-content-center" href="/update/<%= element.id %>"></a>
+                </td>
+                <td>
+                    <%=element.name%>
+                </td>
+                <td>
+                    <%=element.price%>
+                </td>
+                <td>
+                    <%=element.imagen%>
+                </td>
+            </tr>
+            <%});%>
+    </table>
+
+</div>
